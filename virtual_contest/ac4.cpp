@@ -13,19 +13,19 @@ template<typename T>bool chmin(T&x,const T&y) {if(x>y){x=y;return true;} else re
 template<typename T>bool chmax(T&x,const T&y) {if(x<y){x=y;return true;} else return false;}
 
 int main() {
-    double T, L, X, Y;
+    long double T, L, X, Y;
     cin >> T >> L >> X >> Y;
-    double PI = acos(-1);
+    long double PI = acos(-1);
     int Q;
     cin >> Q;
     rep(i, Q) {
-        double E;
+        long double E;
         cin >> E;
-        double x = 0, y, z;
+        long double x = 0, y, z;
         y = L / 2 * cos(- PI / 2 - PI * 2 * E / T);
         z = L / 2 + L / 2 * sin(- PI / 2 - PI * 2 * E / T);
-        double ans = atan2(z, sqrt((X-x) * (X-x) + (Y-y) * (Y-y))) * 180 / PI;
-        printf("%.10f\n", ans);
+        long double ans = atan2(z, sqrt((X-x) * (X-x) + (Y-y) * (Y-y))) * 180 / PI;
+        printf("%.10Lf\n", ans);
     }
     return 0;
 }
