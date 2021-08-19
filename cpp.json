@@ -1,0 +1,1742 @@
+{
+	"c++": {
+		"prefix": "cp",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"#define rep(i,n) for (int i=0; i<(n); ++i)",
+			"#define sz(x) int(x.size())",
+			"#define print(x) cout << x << '\n'",
+			"#define show(x) {for(auto i:x){cout << i << \" \";} cout << endl;}",
+			"#define shows(x) {for(auto y:x){show(y);}}",
+			"#define isin(x,l,r) ((l)<=(x) && (x)<(r))",
+			"using namespace std;",
+			"using ll=long long;",
+			"using pii=pair<int,int>;",
+			"using pll=pair<ll,ll>;",
+			"using tii=tuple<int, int, int>;",
+			"using tll=tuple<ll, ll, ll>;",
+			"template<typename T>bool chmin(T&x,const T&y) {if(x>y){x=y;return true;} else return false;}",
+			"template<typename T>bool chmax(T&x,const T&y) {if(x<y){x=y;return true;} else return false;}",
+			"",
+			"int main() {",
+			"\t",
+			"\t$2return 0;",
+			"\t// get dp together, ll, paraphrase, corner, debug",
+			"}"
+		]
+	},
+	"c++/": {
+		"prefix": "cp/",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"#define rep(i,n) for (int i=0; i<(n); ++i)",
+			"#define sz(x) int(x.size())",
+			"#define print(x) cout << x << '\n'",
+			"#define show(x) {for(auto i:x){cout << i << \" \";} cout << endl;}",
+			"#define shows(x) {for(auto y:x){show(y);}}",
+			"#define isin(x,l,r) ((l)<=(x) && (x)<(r))",
+			"using namespace std;",
+			"using ll=long long;",
+			"using pii=pair<int,int>;",
+			"using pll=pair<ll,ll>;",
+			"using tii=tuple<int, int, int>;",
+			"using tll=tuple<ll, ll, ll>;",
+			"template<typename T>bool chmin(T&x,const T&y) {if(x>y){x=y;return true;} else return false;}",
+			"template<typename T>bool chmax(T&x,const T&y) {if(x<y){x=y;return true;} else return false;}",
+			"",
+			"int main() {",
+			"\t",
+			"\t$2return 0;",
+			"\t// get dp together, ll, paraphrase, corner, debug",
+			"}",
+			"",
+			"// $1"
+		]
+	},
+	"c++atcoder": {
+		"prefix": "cpat",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"#include <atcoder/all>",
+			"#define rep(i, n) for (int i = 0; i < (n); ++i)",
+			"#define print(x) cout << x << '\n'",
+			"#define sz(x) int(x.size())",
+			"#define shows(x) {for(auto y:x){show(y);}}",
+			"#define show(x) {for(auto i: x){cout << i << \" \";} cout << endl;}",
+			"#define isin(x,l,r) ((l) <= (x) && (x) < (r))",
+			"using namespace std;",
+			"using namespace atcoder;",
+			"using ll = long long;",
+			"using pii=pair<int,int>;",
+			"using pll=pair<ll,ll>;",
+			"using tii=tuple<int, int, int>;",
+			"using tll=tuple<ll, ll, ll>;",
+			"template<typename T>bool chmin(T&x,const T&y) {if(x>y){x=y;return true;} else return false;}",
+			"template<typename T>bool chmax(T&x,const T&y) {if(x<y){x=y;return true;} else return false;}",
+			"",
+			"int main() {",
+			"\t",
+			"\t$2return 0;",
+			"\t// get dp together, ll, paraphrase, debug",
+			"}"
+		]
+	},
+	"puts": {
+		"prefix": "puts",
+		"body": [
+			"puts(\"$2\")"
+		]
+	},
+	"cin": {
+		"prefix": "ci",
+		"body": [
+			"cin >> "
+		]
+	},
+	">": {
+		"prefix": ">",
+		"body": [
+			" >> "
+		]
+	},
+	"<": {
+		"prefix": "<",
+		"body": [
+			" << "
+		]
+	},
+	"cout": {
+		"prefix": "co",
+		"body": [
+			"cout << $2 << '\\n';"
+		]
+	},
+	"cout << ans": {
+		"prefix": "coa",
+		"body": [
+			"cout << ans << '\\n';"
+		]
+	},
+	"cout << \"-----\"": {
+		"prefix": "coline",
+		"body": [
+			"cout << \"--------\" << '\\n';"
+		]
+	},
+	"cout << \"here\"": {
+		"prefix": "cohere",
+		"body": [
+			"cout << \"here\" << '\\n';"
+		]
+	},
+	"int A;": {
+		"prefix": "ia",
+		"body": [
+			"int A;",
+			"cin >> A;",
+			""
+		]
+	},
+	"int B;": {
+		"prefix": "ib",
+		"body": [
+			"int B;",
+			"cin >> B;",
+			""
+		]
+	},
+	"int N;": {
+		"prefix": "in",
+		"body": [
+			"int N;",
+			"cin >> N;",
+			""
+		]
+	},
+	"int Q;": {
+		"prefix": "iq",
+		"body": [
+			"int Q;",
+			"cin >> Q;",
+			""
+		]
+	},
+	"int N, _;": {
+		"prefix": "in2",
+		"body": [
+			"int N, $1;",
+			"cin >> N >> $1;",
+			""
+		]
+	},
+	"int ;": {
+		"prefix": "i1",
+		"body": [
+			"int $1;",
+			"cin >> $1;",
+			""
+		]
+	},
+	"int , ;": {
+		"prefix": "i2",
+		"body": [
+			"int $1, $2;",
+			"cin >> $1 >> $2;",
+			""
+		]
+	},
+	"int N, M, L;": {
+		"prefix": "in3",
+		"body": [
+			"int N, $1, $2;",
+			"cin >> N >> $1 >> $2;",
+			""
+		]
+	},
+	"int , ,;": {
+		"prefix": "i3",
+		"body": [
+			"int $1, $2, $3;",
+			"cin >> $1 >> $2 >> $3;",
+			""
+		]
+	},
+	"int , , , ;": {
+		"prefix": "i4",
+		"body": [
+			"int $1, $2, $3, $4;",
+			"cin >> $1 >> $2 >> $3 >> $4;",
+			""
+		]
+	},
+	"int , , , , ;": {
+		"prefix": "i5",
+		"body": [
+			"int $1, $2, $3, $4, $5;",
+			"cin >> $1 >> $2 >> $3 >> $4 >> $5;",
+			""
+		]
+	},
+	"int ans;": {
+		"prefix": "ian",
+		"body": [
+			"int ans = $1;",
+			""
+		]
+	},
+	"int cur;": {
+		"prefix": "icu",
+		"body": [
+			"int cur = $2;",
+			""
+		]
+	},
+	"int temp;": {
+		"prefix": "ite",
+		"body": [
+			"int temp = $2;",
+			""
+		]
+	},
+	"if temp;": {
+		"prefix": "ift",
+		"body": [
+			"if (temp $2< ans) ans = temp;",
+			""
+		]
+	},
+	"if cur;": {
+		"prefix": "ifc",
+		"body": [
+			"if (cur $2< ans) ans = cur;",
+			""
+		]
+	},
+	"int cnt;": {
+		"prefix": "icn",
+		"body": [
+			"int cnt = $2;",
+			""
+		]
+	},
+	"int A, B;": {
+		"prefix": "iab",
+		"body": [
+			"int A, B;",
+			"cin >> A >> B;",
+			""
+		]
+	},
+	"int A, B, C;": {
+		"prefix": "iabc",
+		"body": [
+			"int A, B, C;",
+			"cin >> A >> B >> C;",
+			""
+		]
+	},
+	"int N, M;": {
+		"prefix": "inm",
+		"body": [
+			"int N, M;",
+			"cin >> N >> M;",
+			""
+		]
+	},
+	"int N, Q;": {
+		"prefix": "inq",
+		"body": [
+			"int N, Q;",
+			"cin >> N >> Q;",
+			""
+		]
+	},
+	"int H, W;": {
+		"prefix": "ihw",
+		"body": [
+			"int H, W;",
+			"cin >> H >> W;",
+			""
+		]
+	},
+	"int X;": {
+		"prefix": "ix",
+		"body": [
+			"int X;",
+			"cin >> X;",
+			""
+		]
+	},
+	"int X, Y;": {
+		"prefix": "ixy",
+		"body": [
+			"int X, Y;",
+			"cin >> X >> Y;",
+			""
+		]
+	},
+	"int X, Y, Z;": {
+		"prefix": "ixyz",
+		"body": [
+			"int X, Y, Z;",
+			"cin >> X >> Y >> Z;",
+			""
+		]
+	},
+	"ll A;": {
+		"prefix": "la",
+		"body": [
+			"ll A;",
+			"cin >> A;",
+			""
+		]
+	},
+	"ll B;": {
+		"prefix": "lb",
+		"body": [
+			"ll B;",
+			"cin >> B;",
+			""
+		]
+	},
+	"ll N;": {
+		"prefix": "ln",
+		"body": [
+			"ll N;",
+			"cin >> N;",
+			""
+		]
+	},
+	"ll Q;": {
+		"prefix": "lq",
+		"body": [
+			"ll Q;",
+			"cin >> Q;",
+			""
+		]
+	},
+	"ll N, _;": {
+		"prefix": "ln2",
+		"body": [
+			"ll N, $1;",
+			"cin >> N >> $1;",
+			""
+		]
+	},
+	"ll ;": {
+		"prefix": "l1",
+		"body": [
+			"ll $1;",
+			"cin >> $1;",
+			""
+		]
+	},
+	"ll , ;": {
+		"prefix": "l2",
+		"body": [
+			"ll $1, $2;",
+			"cin >> $1 >> $2;",
+			""
+		]
+	},
+	"ll N, M, L;": {
+		"prefix": "ln3",
+		"body": [
+			"ll N, $1, $2;",
+			"cin >> N >> $1 >> $2;",
+			""
+		]
+	},
+	"ll , ,;": {
+		"prefix": "l3",
+		"body": [
+			"ll $1, $2, $3;",
+			"cin >> $1 >> $2 >> $3;",
+			""
+		]
+	},
+	"ll , , , ;": {
+		"prefix": "l4",
+		"body": [
+			"ll $1, $2, $3, $4;",
+			"cin >> $1 >> $2 >> $3 >> $4;",
+			""
+		]
+	},
+	"ll , , , , ;": {
+		"prefix": "l5",
+		"body": [
+			"ll $1, $2, $3, $4, $5;",
+			"cin >> $1 >> $2 >> $3 >> $4 >> $5;",
+			""
+		]
+	},
+	"ll ans;": {
+		"prefix": "lan",
+		"body": [
+			"ll ans = $1;",
+			""
+		]
+	},
+	"ll cur;": {
+		"prefix": "lcu",
+		"body": [
+			"ll cur = $2;",
+			""
+		]
+	},
+	"ll temp;": {
+		"prefix": "lte",
+		"body": [
+			"ll temp = $2;",
+			""
+		]
+	},
+	"ll cnt;": {
+		"prefix": "lcn",
+		"body": [
+			"ll cnt = $2;",
+			""
+		]
+	},
+	"ll A, B;": {
+		"prefix": "lab",
+		"body": [
+			"ll A, B;",
+			"cin >> A >> B;",
+			""
+		]
+	},
+	"ll A, B, C;": {
+		"prefix": "labc",
+		"body": [
+			"ll A, B, C;",
+			"cin >> A >> B >> C;",
+			""
+		]
+	},
+	"ll N, M;": {
+		"prefix": "lnm",
+		"body": [
+			"ll N, M;",
+			"cin >> N >> M;",
+			""
+		]
+	},
+	"ll H, W;": {
+		"prefix": "lhw",
+		"body": [
+			"ll H, W;",
+			"cin >> H >> W;",
+			""
+		]
+	},
+	"ll X;": {
+		"prefix": "lx",
+		"body": [
+			"ll X;",
+			"cin >> X;",
+			""
+		]
+	},
+	"ll X, Y;": {
+		"prefix": "lxy",
+		"body": [
+			"ll X, Y;",
+			"cin >> X >> Y;",
+			""
+		]
+	},
+	"ll X, Y, Z;": {
+		"prefix": "lxyz",
+		"body": [
+			"ll X, Y, Z;",
+			"cin >> X >> Y >> Z;",
+			""
+		]
+	},
+	"string ans;": {
+		"prefix": "sa",
+		"body": [
+			"string ans;"
+		]
+	},
+	"string S;": {
+		"prefix": "ss",
+		"body": [
+			"string $1S;",
+			"cin >> $1S;",
+			""
+		]
+	},
+	"string T;": {
+		"prefix": "st",
+		"body": [
+			"string $1T;",
+			"cin >> $1T;",
+			""
+		]
+	},
+	"string S, T;": {
+		"prefix": "sst",
+		"body": [
+			"string $1S, $2T;",
+			"cin >> $1S >> $2T;",
+			""
+		]
+	},
+	"vector<>": {
+		"prefix": "ve",
+		"body": [
+			"vector<$1> "
+		]
+	},
+	"vector<int>": {
+		"prefix": "veint",
+		"body": [
+			"vector<int> "
+		]
+	},
+	"vector<double>": {
+		"prefix": "vedouble",
+		"body": [
+			"vector<double> "
+		]
+	},
+	"vector<ll>": {
+		"prefix": "vel",
+		"body": [
+			"vector<ll> "
+		]
+	},
+	"vector<tuple<int, int, int>>": {
+		"prefix": "vet",
+		"body": [
+			"vector<tuple<$2int, $2int, $2int>> $1;"
+		]
+	},
+	"tuple<int, int, int>": {
+		"prefix": "tup",
+		"body": [
+			"tuple<$1int, $1int, $1int>"
+		]
+	},
+	"vector<int> A(N)": {
+		"prefix": "vea",
+		"body": [
+			"vector<$1int> $2A($3N);",
+			"rep(i, $3N) cin >> $2A[i];",
+			""
+		]
+	},
+	"vector<int> B(N)": {
+		"prefix": "veb",
+		"body": [
+			"vector<$1int> B($2N);",
+			"rep(i, $2N) cin >> B[i];",
+			""
+		]
+	},
+	"vector<ll> A(N)": {
+		"prefix": "vela",
+		"body": [
+			"vector<ll> $1A($2N);",
+			"rep(i, $2N) cin >> $1A[i];",
+			""
+		]
+	},
+	"vector<int> x(N)": {
+		"prefix": "vex",
+		"body": [
+			"vector<int> $1(N);",
+			"rep(i, N) cin >> $1[i];",
+			""
+		]
+	},
+	"vector<pii> A(N)": {
+		"prefix": "vep",
+		"body": [
+			"vector<pii> $1A($2N);",
+			"rep(i, $2N) {",
+			"\tcin >> $1A[i].first >> $1A[i].second;",
+			"}",
+			""
+		]
+	},
+	"priority_queue<int> que;": {
+		"prefix": "pq",
+		"body": [
+			"priority_queue<$1int> que;"
+		]
+	},
+	"priority_queue greater": {
+		"prefix": "pq greater",
+		"body": "priority_queue<$1int, vector<$1int>, greater<$1int>> que;",
+		"description": "小さいものから出てくる"
+	},
+	"min": {
+		"prefix": "min",
+		"body": [
+			"$1 = min($1, $2);",
+			"",
+		]
+	},
+	"max": {
+		"prefix": "max",
+		"body": [
+			"$1 = max($1, $2);",
+			""
+		]
+	},
+	"rep(i, N)": {
+		"prefix": "re",
+		"body": [
+			"rep(i, $2N) "
+		]
+	},
+	"rep(i, Q)": {
+		"prefix": "req",
+		"body": [
+			"rep(i, Q) {",
+			"\t$1",
+			"}"
+		]
+	},
+	"rep(j, N)": {
+		"prefix": "rej",
+		"body": [
+			"rep(j, $2N) "
+		]
+	},
+	"rep(k, N)": {
+		"prefix": "rek",
+		"body": [
+			"rep(k, $2N) "
+		]
+	},
+	"for (int i = 0;...": {
+		"prefix": "fi",
+		"body": [
+			"for (int $3i = $1; $3i < $2N; $3i++) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int j = 0;...": {
+		"prefix": "fj",
+		"body": [
+			"for (int j = $1; j < $2N; j++) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int k = 0;...": {
+		"prefix": "fk",
+		"body": [
+			"for (int k = $1; k < $2N; k++) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int i = N;...": {
+		"prefix": "fi-",
+		"body": [
+			"for (int i = $1N-1; i >= 0; i--) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int j = N;...": {
+		"prefix": "fj-",
+		"body": [
+			"for (int j = $1N-1; j >= 0; j--) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int k = N;...": {
+		"prefix": "fk-",
+		"body": [
+			"for (int k = $1N-1; k >= 0; k--) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int l = 0;...": {
+		"prefix": "fl",
+		"body": [
+			"for (int l = $1; l < $2N; l++) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int m = 0;...": {
+		"prefix": "fm",
+		"body": [
+			"for (int m = $1; m < $2N; m++) {",
+			"\t",
+			"}"
+		]
+	},
+	"for (int bit = 0 ...": {
+		"prefix": "bit",
+		"body": "for (int bit = 0; bit < (1<<$1N); bit++) {\n\tfor (int $2i = 0; $2i < $1N; $2i++) {\n\t\tif ((bit>>$2i) & 1) {\n\t\t\t$3\n\t\t}\n\t}\n}"
+	},
+	"sort()": {
+		"prefix": "sort",
+		"body": [
+			"sort($1.begin(), $1.end());"
+		]
+	},
+	"sort(greater<int>())": {
+		"prefix": "sortgreater",
+		"body": [
+			"sort($1.begin(), $1.end(), greater<int>());"
+		]
+	},
+	"sort(lambda)": {
+		"prefix": "sortlambda",
+		"body": [
+			"sort($1.begin(), $1.end(), [&]($2int $3a, $2int $4b) {",
+				"\treturn $5 > $6;",
+			"});"
+		]
+	},
+	"lower_bound()": {
+		"prefix": "lower_bound()",
+		"body": [
+			"lower_bound($1.begin(), $1.end(), $2);"
+		]
+	},
+	"upper_bound()": {
+		"prefix": "upper_bound()",
+		"body": [
+			"upper_bound($1.begin(), $1.end(), $2);"
+		]
+	},
+	".begin(), .end()": {
+		"prefix": ".be",
+		"body": [
+			"$1.begin(), $1.end()"
+		]
+	},
+	".rbegin()": {
+		"prefix": ".rbe",
+		"body": [
+			".rbegin(), $2.rend()"
+		]
+	},
+	".empty()": {
+		"prefix": ".em",
+		"body": [
+			".empty()"
+		]
+	},
+	".push()": {
+		"prefix": ".pu",
+		"body": [
+			".push($2);"
+		]
+	},
+	".pop()": {
+		"prefix": ".po",
+		"body": [
+			".pop();"
+		]
+	},
+	".clear()": {
+		"prefix": ".cl",
+		"body": [
+			".clear();"
+		]
+	},
+	".push_back()": {
+		"prefix": ".pub",
+		"body": [
+			".push_back($2);"
+		]
+	},
+	".pop_front()": {
+		"prefix": ".pof",
+		"body": [
+			".pop_front();"
+		]
+	},
+	".pop_back()": {
+		"prefix": ".pob",
+		"body": [
+			".pop_back();"
+		]
+	},
+	".emplace()": {
+		"prefix": ".emp",
+		"body": [
+			".emplace($2);"
+		]
+	},
+	".emplace_front()": {
+		"prefix": ".emf",
+		"body": [
+			".emplace_front($2);"
+		]
+	},
+	".emplace_back()": {
+		"prefix": ".emb",
+		"body": [
+			".emplace_back($2);"
+		]
+	},
+	".push_front()": {
+		"prefix": ".puf",
+		"body": [
+			".push_front($2);"
+		]
+	},
+	"printf()": {
+		"prefix": "pr",
+		"body": [
+			"printf($2);"
+		]
+	},
+	".top()": {
+		"prefix": ".to",
+		"body": [
+			".top()"
+		]
+	},
+	".first": {
+		"prefix": ".fi",
+		"body": [
+			".first"
+		]
+	},
+	".second": {
+		"prefix": ".se",
+		"body": [
+			".second"
+		]
+	},
+	"bool": {
+		"prefix": "bl",
+		"body": [
+			"bool bl = $1",
+			"puts(bl ? \"$2Yes\" : \"$3No\");"
+		]
+	},
+	"dx, dy": {
+		"prefix": "dxdy",
+		"body": [
+			"const int dx[4] = {1, 0, -1, 0};",
+			"const int dy[4] = {0, 1, 0, -1};",
+			""
+		]
+	},
+	"makeDivisors": {
+		"prefix": "makediv",
+		"body": [
+			"vector<ll> makeDivisors(ll n) {",
+			"\tvector<ll> ret;",
+			"\tfor(ll i = 1; i * i <= n; i++) {",
+			"\t\tif(n%i == 0) {",
+			"\t\t\tret.push_back(i);",
+			"\t\t\tif(i*i != n) ret.push_back(n/i);",
+			"\t\t}",
+			"\t}",
+			"\tsort(ret.begin(), ret.end());",
+			"\treturn ret;",
+			"}"
+		],
+		"description": "約数列挙"
+	},
+	"1-indexed": {
+		"prefix": "1i",
+		"body": [
+			"  // 1-indexed"
+		]
+	},
+	"0-indexed": {
+		"prefix": "0i",
+		"body": [
+			"  // 0-indexed"
+		]
+	},
+	"graph": {
+		"prefix": "graph",
+		"body": [
+			"vector<int> graph[$1N];"
+		]
+	},
+	"tree": {
+		"prefix": "tree",
+		"body": [
+			"vector<int> graph[$1N]; // 0-indexed",
+			"rep(i, $2N-1) {",
+			"\tint a, b;",
+			"\tcin >> a >> b;",
+			"\t--a; --b;",
+			"\tgraph[a].push_back(b);",
+			"\tgraph[b].push_back(a); $3// Directed Graph?",
+			"}"
+		]
+	},
+	"order": {
+		"prefix": "order",
+		"body": [
+			"int root = 0;",
+			"vector<int> parent(N, -1);",
+			"vector<int> order;",
+			"stack<int> stk; // llかどうかに注意",
+			"stk.push(root);",
+			"while (!stk.empty()) {",
+			"\tint cur = stk.top(); stk.pop();",
+			"\torder.push_back(cur);",
+			"\tfor (int next : graph[cur]) {",
+			"\t\tif (next == parent[cur]) continue;",
+			"\t\tparent[next] = cur;",
+			"\t\tstk.push(next);",
+			"\t}",
+			"}"
+		]
+	},
+	"binary search": {
+		"prefix": "ok",
+		"body": [
+			"ll ok = 0; ll ng = $2;",
+			"while (abs(ng - ok) > 1) {",
+			"\tll mid = (ok + ng) / 2;",
+			"\tif (check(mid)) ok = mid;",
+			"\telse ng = mid;",
+			"}"
+		]
+	},
+	"mint": {
+		"prefix": "mint",
+		"body": [
+			"const int MOD =$1 1000000007;",
+			"struct mint {",
+			"\tll x; // typedef long long ll;",
+			"\tmint(ll x=0):x((x%MOD+MOD)%MOD){}",
+			"\tmint operator-() const { return mint(-x);}",
+			"\tmint& operator+=(const mint a) {",
+			"\t\tif ((x += a.x) >= MOD) x -= MOD;",
+			"\t\treturn *this;",
+			"\t}",
+			"\tmint& operator-=(const mint a) {",
+			"\t\tif ((x += MOD-a.x) >= MOD) x -= MOD;",
+			"\t\treturn *this;",
+			"\t}",
+			"\tmint& operator*=(const mint a) { (x *= a.x) %= MOD; return *this;}",
+			"\tmint operator+(const mint a) const { return mint(*this) += a;}",
+			"\tmint operator-(const mint a) const { return mint(*this) -= a;}",
+			"\tmint operator*(const mint a) const { return mint(*this) *= a;}",
+			"\tmint pow(ll t) const {",
+			"\t\tif (!t) return 1;",
+			"\t\tmint a = pow(t>>1);",
+			"\t\ta *= a;",
+			"\t\tif (t&1) a *= *this;",
+			"\t\treturn a;",
+			"\t}",
+			"",
+			"\t// for prime MOD",
+			"\tll val() const { return x;}",
+			"\tmint inv() const { return pow(MOD-2);}",
+			"\tmint& operator/=(const mint a) { return *this *= a.inv();}",
+			"\tmint operator/(const mint a) const { return mint(*this) /= a;}",
+			"};",
+			"istream& operator>>(istream& is, mint& a) { return is >> a.x;}",
+			"ostream& operator<<(ostream& os, const mint& a) { return os << a.x;}",
+			"// combination MOD prime",
+			"struct combination {",
+			"\tvector<mint> fact, ifact;",
+			"\tcombination(int n):fact(n+1),ifact(n+1) {",
+			"\t\tassert(n < MOD);",
+			"\t\tfact[0] = 1;",
+			"\t\tfor (int i = 1; i <= n; ++i) fact[i] = fact[i-1]*i;",
+			"\t\tifact[n] = fact[n].inv();",
+			"\t\tfor (int i = n; i >= 1; --i) ifact[i-1] = ifact[i]*i;",
+			"\t}",
+			"\tmint operator()(int n, int k) {",
+			"\t\tif (k < 0 || k > n) return 0;",
+			"\t\treturn fact[n]*ifact[k]*ifact[n-k];",
+			"\t}",
+			"\tmint p(int n, int k) {",
+			"\t\tif (k < 0 || k > n) return 0;",
+			"\t\treturn fact[n]*ifact[n-k];",
+			"\t}",
+			"}$2; //comb(10000007); // ←MOD-1が上限",
+			"// comb(5, 2) → 10, comb.p(5, 2) → 20",
+			"// comb.fact[4] → 24, 2のN乗 → mint(2).pow(N)"
+		]
+	},
+	"dx": {
+		"prefix": "dx",
+		"body": "const int dx[4] = {1, 0, -1, 0};"
+	},
+	"prime factorize": {
+		"prefix": "primefac",
+		"body": "vector<pair<ll,int>> primeFactorize(ll n) {\n\tvector<pair<ll,int>> res;\n\tfor (ll i = 2; i*i <= n; ++i) {\n\t\tif (n%i) continue;\n\t\tres.emplace_back(i,0);\n\t\twhile (n%i == 0) {\n\t\t\tn /= i;\n\t\t\tres.back().second++;\n\t\t}\n\t}\n\tif (n != 1) res.emplace_back(n,1);\n\treturn res;\n}","description": "nの素因数分解"
+	},
+	"double": {
+		"prefix": "dou",
+		"body": "double "
+	},
+	"PI": {
+		"prefix": "PI",
+		"body": "double PI = acos(-1);"
+	},
+	"puts(\"Yes\")": {
+		"prefix": "Yes",
+		"body": "puts(\"Yes\");\n$1return 0;"
+	},
+	"puts(\"No\")": {
+		"prefix": "Nono",
+		"body": "puts(\"No\");\n$1return 0;"
+	},
+	"INF long long": {
+		"prefix": "INFll",
+		"body": "const ll INF = 1e16 + 10;"
+	},
+	"popcount": {
+		"prefix": "popc",
+		"body": "__builtin_popcountll($1)"
+	},
+	"continue;": {
+		"prefix": "cont",
+		"body": "continue;"
+	},
+	"MOD": {
+		"prefix": "MOD",
+		"body": "const int MOD = 1'000'000'007;"
+	},
+	"lcm": {
+		"prefix": "lcm",
+		"body": "ll gcd(ll a, ll b) { return b ? gcd(b, a%b) : a;}\nll lcm(ll a, ll b) { return a / gcd(a, b) * b;}"
+	},
+	"isPrime": {
+		"prefix": "isprime",
+		"body": "int U = 1e6;\nvector<bool> isPrime(U, 0);\nisPrime[2] = 1;\nfor (int i = 3; i < U; i=i+2) {\n\tisPrime[i] = 1;\n}\nfor (int p = 3; p * p <= U; p=p+2) {\n\tif (isPrime[p]) {\n\t\tfor (int i = p*p; i < U; i=i+2*p) {\n\t\t\tisPrime[i] = 0;\n\t\t}\n\t}\n}"
+	},
+	"factorial": {
+		"prefix": "fact",
+		"body": "vector<ll> fact(N+1);\nfact[1] = 1;\nfor (int i = 2; i < N+1; i++) {\n\tfact[i] = i * fact[i-1];\n}"
+	},
+	"gcd": {
+		"prefix": "gcd",
+		"body": "ll gcd(ll a, ll b) { return b ? gcd(b, a%b) : a;}"
+	},
+	"res": {
+		"prefix": "res",
+		"body": "int res = $1;\nreturn res;"
+	},
+	"oklambda": {
+		"prefix": "oklam",
+		"body": "ll ok = 0; ll ng = $1;\nwhile (abs(ng - ok) > 1) {\n\tll mid = (ok + ng) / 2;\n\tbool bl = [&] {\n\t\treturn $2;\n\t}();\n\tif (bl) ok = mid;\n\telse ng = mid;\n}"
+	},
+	"rehw": {
+		"prefix": "rehw",
+		"body": "rep(i, H) rep(j, W) "
+	},
+	"vevea": {
+		"prefix": "vevea",
+		"body": [
+			"vector<vector<$1int>> $2A($3H, vector<$1int>($4W));",
+			"rep(i, $3H) rep(j, $4W) cin >> $2A[i][j];\n",
+		]
+	},
+	"veveint": {
+		"prefix": "veveint",
+		"body": [
+			"vector<vector<$1int>> $2A($3N, vector<$1int>($4N));",
+		]
+	},
+	"que": {
+		"prefix": "que",
+		"body": "queue<$1int> $2que;"
+	},
+	"bfsgrid": {
+		"prefix": "bfsgrid",
+		"body": ["vector<vector<int>> dist(H, vector<int> (W, INF));",
+		"queue<pii> que;",
+		"auto update = [&] (int i, int j, int d) {",
+		"\tif (dist[i][j] != INF) return;",
+		"\tdist[i][j] = d;",
+		"\tque.emplace(i, j);",
+		"};",
+		"update(si, sj, 0);",
+		"",
+		"while (!que.empty()) {",
+		"\tauto [ci, cj] = que.front(); que.pop();",
+		"\trep(dir, 4) {",
+		"\t\tint ni = ci + dy[dir];",
+		"\t\tint nj = cj + dx[dir];",
+		"\t\tif (ni < 0 || ni >= H || nj < 0 || nj >= W) continue;",
+		"\t\tif (S[ni][nj] == '#' || dist[ni][nj] != INF) continue;",
+		"\t\tupdate(ni, nj, dist[ci][cj] + 1);",
+		"\t}",
+		"}",]
+	},
+	"Sieve": {
+		"prefix": "sieve",
+		"body": [
+			"struct Sieve {\n\tint n;\n\tvector<int> f, primes;\n\tSieve(int n=1):n(n), f(n+1) {\n\t\tf[0] = f[1] = -1;\n\t\tfor (ll i = 2; i <= n; ++i) {\n\t\t\tif (f[i]) continue;\n\t\t\tprimes.push_back(i);\n\t\t\tf[i] = i;\n\t\t\tfor (ll j = i*i; j <= n; j += i) {\n\t\t\t\tif (!f[j]) f[j] = i;\n\t\t\t}\n\t\t}\n\t}\n\tbool isPrime(int x) { return f[x] == x;}\n\tvector<int> factorList(int x) {\n\t\tvector<int> res;\n\t\twhile (x != 1) {\n\t\t\tres.push_back(f[x]);\n\t\t\tx /= f[x];\n\t\t}\n\t\treturn res;\n\t}\n\tvector<pii> factor(int x) {\n\t\tvector<int> fl = factorList(x);\n\t\tif (fl.size() == 0) return {};\n\t\tvector<pii> res(1, pii(fl[0], 0));\n\t\tfor (int p : fl) {\n\t\t\tif (res.back().first == p) {\n\t\t\t\tres.back().second++;\n\t\t\t} else {\n\t\t\t\tres.emplace_back(p, 1);\n\t\t\t}\n\t\t}\n\t\treturn res;\n\t}\n\tvector<pair<ll,int>> factor(ll x) {\n\t\tvector<pair<ll,int>> res;\n\t\tfor (int p : primes) {\n\t\t\tint y = 0;\n\t\t\twhile (x%p == 0) x /= p, ++y;\n\t\t\tif (y != 0) res.emplace_back(p,y);\n\t\t}\n\t\tif (x != 1) res.emplace_back(x,1);\n\t\treturn res;\n\t}\n};",
+			"// Sieve sieve(1e6);\n// auto fl = sieve.factorList(x); でxの因数分解の配列\n// auto f = sieve.factor(x); でxの因数分解、因数と指数のpairの配列がfに入る\n// sieve.primes           の配列(sieve(x) のxを含む)"
+		]
+	},
+	"printf": {
+		"prefix": "printf",
+		"body": "printf(\"%.10$1f\\n\", $2ans);"
+	},
+	"printfd": {
+		"prefix": "printfd",
+		"body": "printf(\"%$1d\\n\", $2ans);"
+	},
+	"map": {
+		"prefix": "map",
+		"body": "map<$1, int> mp;\n"
+	},
+	"cout2": {
+		"prefix": "co2",
+		"body": "cout << $1 << ' ' << $2 << '\\n';"
+	},
+	"cout3": {
+		"prefix": "co3",
+		"body": "cout << $1 << ' ' << $2 << ' ' << $3 << '\\n';"
+	},
+	"reverse": {
+		"prefix": "reverse",
+		"body": "reverse($1.begin(), $1.end());"
+	},
+	"UnionFind": {
+		"prefix": "unionfind",
+		"body": "struct UnionFind {\n\tvector<int> d;\n\tUnionFind(int n): d(n,-1) {}\n\tint root(int x) {\n\t\tif (d[x] < 0) return x;\n\t\treturn d[x] = root(d[x]);\n\t}\n\tbool unite(int x, int y) {\n\t\tx = root(x); y = root(y);\n\t\tif (x == y) return false;\n\t\tif (d[x] > d[y]) swap(x,y);\n\t\td[x] += d[y];\n\t\td[y] = x;\n\t\treturn true;\n\t}\n\tbool same(int x, int y) { return root(x) == root(y);}\n\tint size(int x) { return -d[root(x)];}\n};  // UnionFind uf(N+1);  // 1-indexed\n\nint deg[$1];\nvector<int> graph[$1];"
+	},
+	".insert()": {
+		"prefix": ".ins",
+		"body": ".insert($1)"
+	},
+	".lower_bound()": {
+		"prefix": ".lower_bound",
+		"body": ".lower_bound($1)"
+	},
+	".upper_bound()": {
+		"prefix": ".upper_bound",
+		"body": ".upper_bound($1)"
+	},
+	"ng": {
+		"prefix": "ng",
+		"body": "cout << $1-1 << '\\n';\nreturn 0;"
+	},
+	"endl": {
+		"prefix": "endl",
+		"body": "cout << '\\n';"
+	},
+	"scanf": {
+		"prefix": "scanf",
+		"body": "scanf(\"%$1d\", &$2a);"
+	},
+	"return 0;": {
+		"prefix": "r0",
+		"body": "return 0;"
+	},
+	"isPalindrome()": {
+		"prefix": "ispal",
+		"body": "bool isPalindrome(string s) {\n\tstring t = s;\n\treverse(t.begin(), t.end());\n\treturn s == t;\n}"
+	},
+	"vector<string>": {
+		"prefix": "ves",
+		"body": "vector<string> $1S($2N);\nrep(i, $2N) cin >> $1S[i];\n"
+	},
+	"int INF": {
+		"prefix": "INFint",
+		"body": "const int INF = 1e9 + 10;"
+	},
+	"dijkstra": {
+		"prefix": "dij",
+		"body": [
+            "const ll INF = 1e18;",
+            "int $1N;",
+            "",
+            "struct Edge {",
+            "\tint to, co;",
+            "\tEdge(int to, int co) : to(to), co(co) {}",
+            "};",
+            "",
+            "struct Data {",
+            "\tll d; // 原点からの距離",
+            "\tint v; // 頂点番号",
+            "\tData(ll d, int v) : d(d), v(v) {}",
+            "\tbool operator<(const Data& a) const {",
+            "\t\treturn d > a.d;",
+            "\t}",
+            "};",
+            "",
+            "vector<Edge> graph$2[10000007];",
+            "",
+            "vector<ll> dijkstra(int start) {",
+            "\tvector<ll> dist(N, INF); // 頂点数がNか確認",
+            "\tpriority_queue<Data> que;",
+            "\tauto push = [&] (ll d, int v) {",
+            "\t\tif (dist[v] <= d) return;",
+            "\t\tdist[v] = d;",
+            "\t\tque.emplace(d, v);",
+            "\t};",
+            "\tpush(0, start);",
+            "\twhile(!que.empty()) {",
+            "\t\tData data1 = que.top(); que.pop();",
+            "\t\tint v = data1.v;",
+            "\t\tll d = data1.d;",
+            "\t\tif (dist[v] != d) continue;",
+            "\t\tfor (Edge e : graph[v]) {",
+            "            push(d+e.co, e.to);",
+            "\t\t}",
+            "\t}",
+            "\treturn dist;",
+            "}",
+		]
+	},
+	"BIT Fenwick Tree": {
+		"prefix": "BITfen",
+		"body": "template<typename T>\nstruct BIT {\n\tint n;\n\tvector<T> d;\n\tBIT(int n=0):n(n), d(n+1) {}\n\tvoid add(int i, T x=1) {\n\t\tfor (i++; i <= n; i += i&-i) {\n\t\t\t//i&-iで最下位bitを足している\n\t\t\td[i] += x;\n\t\t}\n\t}\n\tT sum(int i) {\n\t\tT x = 0;\n\t\tfor (i++; i; i -= i&-i) {\n\t\t\tx += d[i];\n\t\t}\n\t\treturn x;\n\t}\n\tT semiopenSum(int l, int r) {\n\t\t// [l,r)の半開区間\n\t\treturn sum(r-1) - sum(l-1);\n\t}\n};  // BIT<int> bit(N);"
+	},
+	".begin()": {
+		"prefix": ".beg",
+		"body": ".begin()"
+	},
+	".end()": {
+		"prefix": ".end",
+		"body": ".end()"
+	},
+	"accumulate()": {
+		"prefix": "accumulate",
+		"body": "accumulate($1.begin(), $1.end(), 0)",
+	},
+	"mod2": {
+		"prefix": "mod2",
+		"body": "998244353",
+	},
+	"stoll9": {
+		"prefix": "stoll9",
+		"body": "ll stoll9(string s) {\n\t// 10 ^ 9倍した整数を返す\n\tint digit = 0;\n\tfor (int i = sz(s)-1; i >= 0; i--) {\n\t\tif (s[i] == '.') {\n\t\t\ts.replace(i, 1, \"\");\n\t\t\tbreak;\n\t\t}\n\t\tdigit++;\n\t\tif (i == 0) digit = 0;\n\t}\n\tll x = stoll(s);\n\trep(i, 9-digit) x *= 10;\n\treturn x;\n}",
+		"description": "stringから10 ^ 9倍した整数を返す"
+	},
+	"stoi()": {
+		"prefix": "stoi",
+		"body": "stoi($1)",
+		"description": ""
+	},
+	"mat mul": {
+		"prefix": "matmul",
+		"body": "using mat = vector<vector<int>>;\n\nmat mul(mat &A, mat &B) {\n\tmat C(A.size(), vector<int> (B[0].size()));\n\tfor (int i = 0; i < A.size(); i++) {\n\t\tfor (int k = 0; k < B.size(); k++) {\n\t\t\tfor (int j = 0; j < B[0].size(); j++) {\n\t\t\t\tC[i][j] += A[i][k] * B[k][j];\n\t\t\t}\n\t\t}\n\t}\n\treturn C;\n}",
+		"description": "行列の掛け算？"
+	},
+	"for (int i = 1 ...)": {
+		"prefix": "fi1",
+		"body": "for (int $2i = 1; $2i <= $1N; $2i++) {\n\t$3\n}"
+	},
+	"for (int j = 1 ...)": {
+		"prefix": "fj1",
+		"body": "for (int $2j = 1; $2j <= $1N; $2j++) {\n\t$3\n}"
+	},
+	"for (int k = 1 ...)": {
+		"prefix": "fk1",
+		"body": "for (int $2k = 1; $2k <= $1N; $2k++) {\n\t$3\n}"
+	},
+	"struct constructor": {
+		"prefix": "structconst",
+		"body": "struct $1 {\n\t$2int $3, $4;\n\t$1($2int $3, $2int $4): $3($3), $4($4) {}\n};"
+	},
+	"lca": {
+		"prefix": "lca",
+		"body": "template<typename T>\nstruct lca {\n\tint n, root, l;\n\tvector<vector<int>> to;\n\tvector<vector<T>> co;\n\tvector<int> dep;\n\tvector<T> costs;\n\tvector<vector<int>> par;\n\tlca(int n):n(n), to(n), co(n), dep(n), costs(n) {\n\t\tl = 0;\n\t\twhile ((1<<l) < n) ++l;\n\t\tpar = vector<vector<int>>(n+1, vector<int>(l, n));\n\t}\n\tvoid addEdge(int a, int b, T c=0) {\n\t\tto[a].push_back(b); co[a].push_back(c);\n\t\tto[b].push_back(a); co[b].push_back(c);\n\t}\n\tvoid dfs(int v, int d=0, T c=0, int p=-1) {\n\t\tif (p != -1) par[v][0] = p;\n\t\tdep[v] = d;\n\t\tcosts[v] = c;\n\t\tfor (int i = 0; i < to[v].size(); ++i) {\n\t\t\tint u = to[v][i];\n\t\t\tif (u == p) continue;\n\t\t\tdfs(u, d+1, c+co[v][i], v);\n\t\t}\n\t}\n\tvoid init(int _root=0) {\n\t\troot = _root;\n\t\tdfs(root);\n\t\tfor (int i = 0; i < l-1; ++i) {\n\t\t\tfor (int v = 0; v < n; ++v) {\n\t\t\t\tpar[v][i+1] = par[par[v][i]][i];\n\t\t\t}\n\t\t}\n\t}\n\t// LCA\n\tint operator()(int a, int b) {\n\t\tif (dep[a] > dep[b]) swap(a, b);\n\t\tint gap = dep[b] - dep[a];\n\t\tfor (int i = l-1; i >= 0; --i) {\n\t\t\tint len = 1<<i;\n\t\t\tif (gap >= len) {\n\t\t\t\t\tgap -= len;\n\t\t\t\t\tb = par[b][i];\n\t\t\t}\n\t\t}\n\t\tif (a == b) return a;\n\t\tfor (int i = l-1; i >= 0; --i) {\n\t\t\tint na = par[a][i];\n\t\t\tint nb = par[b][i];\n\t\t\tif (na != nb) a = na, b = nb;\n\t\t}\n\t\treturn par[a][0];\n\t}\n\tint length(int a, int b) {\n\t\tint c = lca(a, b);\n\t\treturn dep[a] + dep[b] - dep[c]*2;\n\t}\n\tT dist(int a, int b) {\n\t\tint c = lca(a,b);\n\t\treturn costs[a]+costs[b]-costs[c]*2;\n\t}\n};\n// lca<ll> g(N);  g.addEdge(a, b, cost);  g.init(); //←initialize dep, cost, par\n// int common = g(a, b);  int x = g.costs[a];"
+	},
+	"struct normal": {
+		"prefix": "structnormal",
+		"body": "struct $1 {\n    $2\n};",
+		"description": ""
+	},
+	"structconst4": {
+		"prefix": "structconst4",
+		"body": "struct $1 {\n    $2int $3, $4, $5, $6;\n    $1($2int $3, $2int $4, $2int $5, $2int $6): $3($3), $4($4), $5($5), $6($6) {}\n};",
+		"description": ""
+	},
+	"struct operator": {
+		"prefix": "structoperator",
+		"body": [
+			"struct Data {",
+			"\tint $1, $2;",
+			"\tData(int $1, int $2) : $1($1), $2($2) {}",
+			"\tbool operator<(const Data& a) const {",
+			"\t\tif ($1 == a.$1) return $2 < a.$2;",
+			"\t\treturn $1 < a.$1;",
+			"\t}",
+			"};",
+		],
+		"description": ""
+	},
+
+	"deq": {
+		"prefix": "deq",
+		"body": "deque<$1int> ",
+		"description": ""
+	},
+	"memset": {
+		"prefix": "memset",
+		"body": "memset($1, $2, sizeof($1));"
+	},
+	"vemint": {
+		"prefix": "vemi",
+		"body": "vector<mint> "
+	},
+	"fill": {
+		"prefix": "fill",
+		"body": "fill($1.begin(), $1.end(), $2);"
+	},
+	"for (int a : A)": {
+		"prefix": "fa",
+		"body": "for (int $1a : $2A) {\n\t$3\n}"
+	},
+	"for (int x : A)": {
+		"prefix": "fx",
+		"body": "for (int $1x : $2A) {\n\t$3\n}"
+	},
+	"for (auto p : A)": {
+		"prefix": "fautop",
+		"body": "for (auto $1p : $2A) {\n\t$3\n}"
+	},
+	"for (char c : S)": {
+		"prefix": "fc",
+		"body": "for (char $1c : $2S) {\n\t$3\n}"
+	},
+	"set": {
+		"prefix": "set",
+		"body": "set<$1int> ",
+		"description": ""
+	},
+	"eraseunique": {
+		"prefix": "eruni",
+		"body": "$1.erase(unique($1.begin(), $1.end()), $1.end());",
+		"description": "重複したものを消す？"
+	},
+	".front()": {
+		"prefix": ".fro",
+		"body": ".front()",
+		"description": ""
+	},
+	".back()": {
+		"prefix": ".ba",
+		"body": ".back()",
+		"description": ""
+	},
+	"for (auto p : X)": {
+		"prefix": "fp",
+		"body": "for (auto p : $1) {\n\t$2\n}",
+		"description": ""
+	},
+	"numberOfDigits": {
+		"prefix": "digits",
+		"body": "int numberOfDigits(ll x) {\n    // 自然数の桁数を返す\n    int res = 0;\n    if (x == 0) return 1;\n    while (x) {\n        res++;\n        x /= 10;\n    }\n    return res;\n}",
+		"description": ""
+	},
+	"Warshall–Floyd": {
+		"prefix": "warshall–floyd",
+		"body": "rep(k, $1N) rep(i, $1N) rep(j, $1N) {\n\t$2dist[i][j] = min($2dist[i][j], $2dist[i][k] + $2dist[k][j]);\n}",
+	},
+	"scanf2": {
+		"prefix": "scanf2",
+		"body": "scanf(\"%$1d %$1d\", &$2, &$3);",
+	},
+	"scanf3": {
+		"prefix": "scanf3",
+		"body": "scanf(\"%$1d %$1d %$1d\", &$2, &$3, &$4);",
+	},
+	"scanf4": {
+		"prefix": "scanf4",
+		"body": "scanf(\"%$1d %$1d %$1d %$1d\", &$2, &$3, &$4, &$5);",
+	},
+	"for (int i...) for (int j...)": {
+		"prefix": "fij",
+		"body": "for (int i = $1; i < $2N; i++) {\n\tfor (int j = i+1; j < $2N; j++) {\n\t\t$3\n\t}\n}",
+		"description": ""
+	},
+	"pop_back()": {
+		"prefix": "pob",
+		"body": "pop_back();",
+		"description": ""
+	},
+	"eps": {
+		"prefix": "eps",
+		"body": "const double eps = 1e-10;",
+		"description": ""
+	},
+	"atcoder": {
+		"prefix": "atcoder",
+		"body": "#include <atcoder/all>\nusing namespace atcoder;",
+		"description": ""
+	},
+	"KMP": {
+		"prefix": "mp",
+		"body": [
+			"// Morris-Pratt",
+			"template<typename T>",
+			"struct MP {",
+			"\tint n;",
+			"\tT t;",
+			"\tvector<int> a;",
+			"\tMP() {}",
+			"\tMP(const T& t): t(t) {",
+			"\t\tn = t.size();",
+			"\t\ta = vector<int>(n+1);",
+			"\t\ta[0] = -1;",
+			"\t\tint j = -1;",
+			"\t\tfor (int i = 0; i < n; ++i) {",
+			"\t\t\twhile (j != -1 && t[j] != t[i]) j = a[j];",
+			"\t\t\tj++;",
+			"\t\t\ta[i+1] = j;",
+			"\t\t}",
+			"\t}",
+			"\tint operator[](int i) { return a[i];}",
+			"\tvector<int> findAll(const T& s) {",
+			"\t\tvector<int> res;",
+			"\t\tint j = 0;",
+			"\t\tfor (int i = 0; i < sz(s); ++i) {",
+			"\t\t\twhile (j != -1 && t[j] != s[i]) j = a[j];",
+			"\t\t\tj++;",
+			"\t\t\tif (j == n) {",
+			"\t\t\t\tres.push_back(i-j+1);",
+			"\t\t\t\tj = a[j];",
+			"\t\t\t}",
+			"\t\t}",
+			"\t\treturn res;",
+			"\t}",
+			"}; //vector<int> xa(n), xb(n); 入力後",
+			"// MP<vector<int>> mp(xa); vector<int> res = mp.findAll(xb);",
+			"// xaをどれだけ右にずらしたらxbに一致するか",
+			],
+		"description": ""
+	},
+	"lazySegmentTree": {
+		"prefix": "lazyseg",
+		"body": "using mint = $1modint998244353;\n\nstruct S {\n    mint a;\n    int size;\n};\n\nstruct F {\n    mint a, b;\n};\n\nS op(S l, S r) { return S{l.a + r.a, l.size + r.size}; } // datをまとめる\n\nS e() { return S{0, 0}; } // 初期値\n\nS mapping(F l, S r) { return S{r.a * l.a + r.size * l.b, r.size}; } // Ai ←　b * Ai + c の計算\n\nF composition(F l, F r) { return F{r.a * l.a, r.b * l.a + l.b}; } // rが先の演算、lが後の演算で関数を合成\n\nF id() { return F{1, 0}; } // 恒等写像（この関数では値が変わらない）\n// vector<S> a(n); lazy_segtree<S, op, e, F, mapping, composition, id> seg(A);\n// seg.apply(l, r, F{c, d}); seg.prod(l, r).a.val(); // 半開区間",
+		"description": ""
+	},
+	"convolution": {
+		"prefix": "convolution",
+		"body": "convolution$1<998244353>($2, $3);\n",
+		"description": ""
+	},
+	"segtreea": {
+		"prefix": "segtreea",
+		"body": [
+			"int op(int a, int b) { return max(a, b); }",
+			"",
+			"int e() { return 0; } // 単位元",
+			"",
+			"// int target;",
+			"// bool f(int v) { return v < target; }",
+			"// seg.max_right<f>(p) // fを満たす最大の値を返す",
+			"",
+			"// vector<int> a(100005);",
+			"// segtree<int, op, e> seg(a); // main関数の中で使う",
+		],
+		"description": "e() は単位元、seg.prod(int l, int r)でlからr-1の中で最大値などを返す"
+	},
+	"struct V": {
+		"prefix": "struct V",
+		"body": [
+			"const double eps = 1e-9;",
+			"bool equal(double a, double b) { return abs(a-b) < eps;}",
+			"",
+			"struct V {",
+			"\tdouble x, y;",
+			"\tV(double x=0, double y=0): x(x), y(y) {}",
+			"\tV& operator+=(const V& v) { x += v.x; y += v.y; return *this;}",
+			"\tV operator+(const V& v) const { return V(*this) += v;}",
+			"\tV& operator-=(const V& v) { x -= v.x; y -= v.y; return *this;}",
+			"\tV operator-(const V& v) const { return V(*this) -= v;}",
+			"\tV& operator*=(double s) { x *= s; y *= s; return *this;}",
+			"\tV operator*(double s) const { return V(*this) *= s;}",
+			"\tV& operator/=(double s) { x /= s; y /= s; return *this;}",
+			"\tV operator/(double s) const { return V(*this) /= s;}",
+			"\tdouble dot(const V& v) const { return x*v.x + y*v.y;}",
+			"\tdouble cross(const V& v) const { return x*v.y - v.x*y;}",
+			"\tdouble norm2() const { return x*x + y*y;}",
+			"\tdouble norm() const { return sqrt(norm2());}",
+			"\tV rotate90() const { return V(y, -x);}",
+			"\tint ort() const { // orthant",
+			"\t\tif (abs(x) < eps && abs(y) < eps) return 0;",
+			"\t\tif (y > 0) return x>0 ? 1 : 2;",
+			"\t\telse return x>0 ? 4 : 3;",
+			"\t}",
+			"\tbool operator<(const V& v) const {",
+			"\t\tint o = ort(), vo = v.ort();",
+			"\t\tif (o != vo) return o < vo;",
+			"\t\treturn cross(v) > 0;",
+			"\t}",
+			"};",
+			"istream& operator>>(istream& is, V& v) {",
+			"\tis >> v.x >> v.y; return is;",
+			"}",
+			"ostream& operator<<(ostream& os, const V& v) {",
+			"\tos<<\"(\"<<v.x<<\",\"<<v.y<<\")\"; return os;",
+			"}",
+		],
+		"description": "x-y平面上の点、距離や角度でsortなど"
+	},	
+	"Circle": {
+		"prefix": "Circle",
+		"body": [
+			"struct Circle {",
+			"\tV o; double r;",
+			"\tCircle(V o=V(), double r=0) : o(o), r(r) {}",
+			"\tvector<V> crossPoint(const Circle& c) {",
+			"\t\tV v = c.o-o;",
+			"\t\tdouble l = v.norm();",
+			"\t\tif (equal(l, 0)) return {};",
+			"\t\tif (equal(l+r+c.r, max({l,r,c.r})*2)) {",
+			"\t\t\tif (equal(l+r,c.r)) return {o - v*(r/l)};",
+			"\t\t\treturn {o + v*(r/l)};",
+			"\t\t}",
+			"\t\tif (l+r+c.r < max({l,r,c.r})*2) return {};",
+			"\t\tdouble x = (l*l + r*r - c.r*c.r) / (2*l);",
+			"\t\tdouble y = sqrt(r*r - x*x);",
+			"\t\tV mid = o + v*(x/l);",
+			"\t\tv = v.rotate90();",
+			"\t\treturn {mid + v*(y/l), mid - v*(y/l)};",
+			"\t}",
+			"\tbool isInside(const V& p) const {",
+			"\t\treturn (p-o).norm() < r+eps;",
+			"\t}",
+			"};  // struct V と一緒に使う、auto tmp = a.crossPoint(b); で円aと円bの交点の配列",
+			"// a.isInside(p) で 点p が円aに含まれるか判定",
+		],
+	},
+	"dowhile": {
+		"prefix": "dowhile",
+		"body": [
+			"do {",
+			"\t$2",
+			"} while (next_permutation($1.begin(), $1.end()));",
+		],
+		"description": ""
+	},
+	"inversionNumber": {
+		"prefix": "inversionNumber",
+		"body": [
+			"ll inversionNumber(vector<int> A) {",
+			"\t// Aの転倒数、BITfenも必要",
+			"\tll res = 0;",
+			"\tBIT<int> bit(N);",
+			"\tfor (int i = 0; i < N; i++) {",
+			"\t\tassert(A[i] >= 0);",
+			"\t\tres += i - bit.sum(A[i]);",
+			"\t\tbit.add(A[i], 1);",
+			"\t}",
+			"\treturn res;",
+			"}",
+		],
+		"description": "転倒数"
+	},
+	"digsum": {
+		"prefix": "digsum",
+		"body": "ll digsum(ll n){ //各桁の和\n    ll a = 0;\n    while (n) {\n        a += n%10;\n        n /= 10;\n    }\n    return a;\n}",
+		"description": "各桁の和"
+	},
+	"stack<int> sk;": {
+		"prefix": "sta",
+		"body": "stack<$1int> sk;\n",
+	},
+	"mergeAandA+x": {
+		"prefix": "mergeAandA+x",
+		"body": [
+			"vector<ll> merge(const vector<ll>& A, ll x){ // merge A and A + x",
+			"\tvector<ll> ret;",
+			"\tauto i = A.begin();",
+			"\tfor(ll a : A){",
+			"\t\twhile(x + *i < a) ret.push_back(x + *i++);",
+			"\t\tret.push_back(a);",
+			"\t}",
+			"\twhile(i < A.end()) ret.push_back(x + *i++);",
+			"\treturn ret;",
+			"}",
+		],
+		"description": "merge A and A+x"
+	},
+	"Pascal's triangle": {
+		"prefix": "pascal",
+		"body": [
+			"// パスカルの三角形",
+			"vector<vector<$2int>> pas($1N+5, vector<$2int>($1N+5));",
+			"pas[0][0] = 1;",
+			"for (int i = 0; i <= $1N; i++) {",
+			"\tfor (int j = 0; j <= i; j++) {",
+			"\t\t// if (i) pas[i][j] /= 2; // 確率の時intをdoubleにして",
+			"\t\tpas[i+1][j] += pas[i][j];",
+			"\t\tpas[i+1][j+1] += pas[i][j];",
+			"\t}",
+			"}",
+		],
+	},
+	"const int MX": {
+		"prefix": "MX",
+		"body": "const int MX =$1 100005;",
+		"description": ""
+	},
+	"nCr": {
+		"prefix": "ncr",
+		"body": [
+			"ll ncr(ll n, ll r) {",
+			"\tr = min(r, n-r);",
+			"\tll num, den, g;",
+			"\tnum = den = 1;",
+			"\twhile (r) {",
+			"\t\tnum *= n--;",
+			"\t\tden *= r--;",
+			"\t\tg = gcd(num, den);",
+			"\t\tnum /= g;",
+			"\t\tden /= g;",
+			"\t}",
+			"\treturn num;",
+			"}",
+		],
+	},
+    "extgcd": {
+        "prefix": "extgcd",
+        "body": [
+            "//{g, x, y}: ax + by = g (mod b でのaの逆元を求められる)",
+            "tuple<ll, ll, ll> extgcd(ll a, ll b) {",
+            "\tif (b == 0) return {a, 1, 0};",
+            "\tauto [g, x, y] = extgcd(b, a%b);",
+            "\treturn {g, y, x - (a/b)*y};",
+            "}",
+        ],
+    },
+    "dame": {
+        "prefix": "dame",
+        "body": [　
+            "#define dame {puts(\"Impossible\"); return 0;}",
+        ],
+    },
+	"pow": {
+		"prefix": "pow",
+		"body": "ll pow(ll a,ll n){ll x=1;for(;n;n/=2)n&1?x=x*a:0,a=a*a;return x;}",
+		"description": "power for int & ll",
+	},
+	"pom": {
+		"prefix": "powmod",
+		"body": "ll pom(ll a,ll n,int m){ll x=1;for(a%=m;n;n/=2)n&1?x=x*a%m:0,a=a*a%m;return x;}\n",
+		"description": "power mod"
+	},
+	"srand()": {
+		"prefix": "srand",
+		"body": "srand((unsigned int)time(NULL));",
+		"description": "time関数を使った乱数の種の設定, rand()で乱数生成"
+	},
+	"getTreeDiameter": {
+		"prefix": "treediameter",
+		"body": [
+			"const int MX = 100005;",
+			"vector<int> graph[MX];",
+			"",
+			"pii dfs(int cur, int pa = -1) {",
+			"\tpii ret = pii(0, cur);  // dist, index",
+			"\tfor (int next : graph[cur]) {",
+			"\t\tif (next == pa) continue;",
+			"\t\tauto [d, i] = dfs(next, cur);",
+			"\t\tif (d+1 > ret.first) ret = pii(d+1, i);",
+			"\t}",
+			"\treturn ret;",
+			"}",
+			"",
+			"int getTreeDiameter() {",
+			"\tauto [d, i] = dfs(0);",
+			"\tauto [d2, i2] = dfs(i);",
+			"\treturn d2;",
+			"}",
+		],
+		"description": "木の直径"
+	},
+	"compress": {
+        "prefix": "compress",
+        "body": [　
+			"vector<int> compress(vector<int> A) {",
+			"\tint n = sz(A);",
+			"\tmap<int, int> mp;",
+			"\trep(i, n) mp[A[i]] = 0;",
+			"\tint id = 1;",
+			"\tfor (auto& p : mp) p.second = id++;",
+			"\trep(i, n) A[i] = mp[A[i]];",
+			"\treturn A;",
+			"}",
+		],
+		"description": "座標圧縮"
+    },
+	"cycle_move": {
+        "prefix": "cycle_move",
+        "body": [
+			"int cycle_move(int start, ll k, int(*func)(int)) {",
+			"\t// 循環する数列のk番目を返す",
+			"\tvector<int> A;",
+			"\tmap<int, int> mp;",
+			"\tint cur = start, ind = 0;",
+			"\twhile (!mp.count(cur)) {",
+			"\t\tA.push_back(cur);",
+			"\t\tmp[cur] = ind++;",
+			"\t\tcur = func(cur);",
+			"\t}",
+			"\tif (sz(A) > k) return A[k];",
+			"\tk -= mp[cur];",
+			"\tk %= ind - mp[cur];",
+			"\treturn A[mp[cur] + k];",
+			"}",
+		],
+		"description": "循環する数列のk番目を返す"
+	},
+	"isinhwcon": {
+		"prefix": "isinhwcon",
+		"body": "if (!(isin($1i, 0, $2H) && isin($3j, 0, $4W))) continue;\n",
+		"description": "",
+	},
+}
+
+
+
