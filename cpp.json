@@ -5,7 +5,7 @@
 			"#include <bits/stdc++.h>",
 			"#define rep(i,n) for (int i=0; i<(n); ++i)",
 			"#define sz(x) int(x.size())",
-			"#define print(x) cout << x << '\n'",
+			"#define print(x) cout << x << '\\n'",
 			"#define show(x) {for(auto i:x){cout << i << \" \";} cout << endl;}",
 			"#define shows(x) {for(auto y:x){show(y);}}",
 			"#define isin(x,l,r) ((l)<=(x) && (x)<(r))",
@@ -31,7 +31,7 @@
 			"#include <bits/stdc++.h>",
 			"#define rep(i,n) for (int i=0; i<(n); ++i)",
 			"#define sz(x) int(x.size())",
-			"#define print(x) cout << x << '\n'",
+			"#define print(x) cout << x << '\\n'",
 			"#define show(x) {for(auto i:x){cout << i << \" \";} cout << endl;}",
 			"#define shows(x) {for(auto y:x){show(y);}}",
 			"#define isin(x,l,r) ((l)<=(x) && (x)<(r))",
@@ -59,7 +59,7 @@
 			"#include <bits/stdc++.h>",
 			"#include <atcoder/all>",
 			"#define rep(i, n) for (int i = 0; i < (n); ++i)",
-			"#define print(x) cout << x << '\n'",
+			"#define print(x) cout << x << '\\n'",
 			"#define sz(x) int(x.size())",
 			"#define shows(x) {for(auto y:x){show(y);}}",
 			"#define show(x) {for(auto i: x){cout << i << \" \";} cout << endl;}",
@@ -1733,10 +1733,25 @@
 	},
 	"isinhwcon": {
 		"prefix": "isinhwcon",
-		"body": "if (!(isin($1i, 0, $2H) && isin($3j, 0, $4W))) continue;\n",
+		"body": "if (!(isin($1ni, 0, $2H) && isin($3nj, 0, $4W))) continue;\n",
 		"description": "",
 	},
+	"LIS": {
+		"prefix": "lis",
+		"body": [
+			"// 最長増加部分列の長さを求める",
+			"template<typename T>",
+			"int LIS(vector<T> A) {",
+			"\tvector<T> dp(sz(A), INF);",
+			"\tfor (int i = 0; i < sz(A); i++) {",
+			"\t\tauto it = lower_bound(dp.begin(), dp.end(), A[i]);",
+			"\t\t*it = A[i];",
+			"\t}",
+			"\treturn lower_bound(dp.begin(), dp.end(), INF) - dp.begin();",
+			"}",
+		],
+		"description": "Longest Increasing Subsequence",
+	},
 }
-
 
 
