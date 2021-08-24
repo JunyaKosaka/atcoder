@@ -84,7 +84,7 @@
 	"puts": {
 		"prefix": "puts",
 		"body": [
-			"puts(\"$2\")"
+			"puts(\"$1\")"
 		]
 	},
 	"cin": {
@@ -108,7 +108,7 @@
 	"cout": {
 		"prefix": "co",
 		"body": [
-			"cout << $2 << '\\n';"
+			"cout << $1 << '\\n';"
 		]
 	},
 	"cout << ans": {
@@ -214,48 +214,6 @@
 		"body": [
 			"int $1, $2, $3, $4, $5;",
 			"cin >> $1 >> $2 >> $3 >> $4 >> $5;",
-			""
-		]
-	},
-	"int ans;": {
-		"prefix": "ian",
-		"body": [
-			"int ans = $1;",
-			""
-		]
-	},
-	"int cur;": {
-		"prefix": "icu",
-		"body": [
-			"int cur = $2;",
-			""
-		]
-	},
-	"int temp;": {
-		"prefix": "ite",
-		"body": [
-			"int temp = $2;",
-			""
-		]
-	},
-	"if temp;": {
-		"prefix": "ift",
-		"body": [
-			"if (temp $2< ans) ans = temp;",
-			""
-		]
-	},
-	"if cur;": {
-		"prefix": "ifc",
-		"body": [
-			"if (cur $2< ans) ans = cur;",
-			""
-		]
-	},
-	"int cnt;": {
-		"prefix": "icn",
-		"body": [
-			"int cnt = $2;",
 			""
 		]
 	},
@@ -411,34 +369,6 @@
 			""
 		]
 	},
-	"ll ans;": {
-		"prefix": "lan",
-		"body": [
-			"ll ans = $1;",
-			""
-		]
-	},
-	"ll cur;": {
-		"prefix": "lcu",
-		"body": [
-			"ll cur = $2;",
-			""
-		]
-	},
-	"ll temp;": {
-		"prefix": "lte",
-		"body": [
-			"ll temp = $2;",
-			""
-		]
-	},
-	"ll cnt;": {
-		"prefix": "lcn",
-		"body": [
-			"ll cnt = $2;",
-			""
-		]
-	},
 	"ll A, B;": {
 		"prefix": "lab",
 		"body": [
@@ -493,12 +423,6 @@
 			"ll X, Y, Z;",
 			"cin >> X >> Y >> Z;",
 			""
-		]
-	},
-	"string ans;": {
-		"prefix": "sa",
-		"body": [
-			"string ans;"
 		]
 	},
 	"string S;": {
@@ -585,14 +509,6 @@
 			""
 		]
 	},
-	"vector<int> x(N)": {
-		"prefix": "vex",
-		"body": [
-			"vector<int> $1(N);",
-			"rep(i, N) cin >> $1[i];",
-			""
-		]
-	},
 	"vector<pii> A(N)": {
 		"prefix": "vep",
 		"body": [
@@ -614,24 +530,10 @@
 		"body": "priority_queue<$1int, vector<$1int>, greater<$1int>> que;",
 		"description": "小さいものから出てくる"
 	},
-	"min": {
-		"prefix": "min",
-		"body": [
-			"$1 = min($1, $2);",
-			"",
-		]
-	},
-	"max": {
-		"prefix": "max",
-		"body": [
-			"$1 = max($1, $2);",
-			""
-		]
-	},
 	"rep(i, N)": {
 		"prefix": "re",
 		"body": [
-			"rep(i, $2N) "
+			"rep(i, $1N) "
 		]
 	},
 	"rep(i, Q)": {
@@ -645,13 +547,13 @@
 	"rep(j, N)": {
 		"prefix": "rej",
 		"body": [
-			"rep(j, $2N) "
+			"rep(j, $1N) "
 		]
 	},
 	"rep(k, N)": {
 		"prefix": "rek",
 		"body": [
-			"rep(k, $2N) "
+			"rep(k, $1N) "
 		]
 	},
 	"for (int i = 0;...": {
@@ -763,7 +665,7 @@
 	".rbegin()": {
 		"prefix": ".rbe",
 		"body": [
-			".rbegin(), $2.rend()"
+			"$1.rbegin(), $1.rend()"
 		]
 	},
 	".empty()": {
@@ -775,7 +677,7 @@
 	".push()": {
 		"prefix": ".pu",
 		"body": [
-			".push($2);"
+			".push($1);"
 		]
 	},
 	".pop()": {
@@ -811,31 +713,31 @@
 	".emplace()": {
 		"prefix": ".emp",
 		"body": [
-			".emplace($2);"
+			".emplace($1);"
 		]
 	},
 	".emplace_front()": {
 		"prefix": ".emf",
 		"body": [
-			".emplace_front($2);"
+			".emplace_front($1);"
 		]
 	},
 	".emplace_back()": {
 		"prefix": ".emb",
 		"body": [
-			".emplace_back($2);"
+			".emplace_back($1);"
 		]
 	},
 	".push_front()": {
 		"prefix": ".puf",
 		"body": [
-			".push_front($2);"
+			".push_front($1);"
 		]
 	},
 	"printf()": {
 		"prefix": "pr",
 		"body": [
-			"printf($2);"
+			"printf($1);"
 		]
 	},
 	".top()": {
@@ -1014,7 +916,8 @@
 	},
 	"prime factorize": {
 		"prefix": "primefac",
-		"body": "vector<pair<ll,int>> primeFactorize(ll n) {\n\tvector<pair<ll,int>> res;\n\tfor (ll i = 2; i*i <= n; ++i) {\n\t\tif (n%i) continue;\n\t\tres.emplace_back(i,0);\n\t\twhile (n%i == 0) {\n\t\t\tn /= i;\n\t\t\tres.back().second++;\n\t\t}\n\t}\n\tif (n != 1) res.emplace_back(n,1);\n\treturn res;\n}","description": "nの素因数分解"
+		"body": "vector<pair<ll,int>> primeFactorize(ll n) {\n\tvector<pair<ll,int>> res;\n\tfor (ll i = 2; i*i <= n; ++i) {\n\t\tif (n%i) continue;\n\t\tres.emplace_back(i,0);\n\t\twhile (n%i == 0) {\n\t\t\tn /= i;\n\t\t\tres.back().second++;\n\t\t}\n\t}\n\tif (n != 1) res.emplace_back(n,1);\n\treturn res;\n}",
+		"description": "nの素因数分解"
 	},
 	"double": {
 		"prefix": "dou",
@@ -1054,7 +957,8 @@
 	},
 	"isPrime": {
 		"prefix": "isprime",
-		"body": "int U = 1e6;\nvector<bool> isPrime(U, 0);\nisPrime[2] = 1;\nfor (int i = 3; i < U; i=i+2) {\n\tisPrime[i] = 1;\n}\nfor (int p = 3; p * p <= U; p=p+2) {\n\tif (isPrime[p]) {\n\t\tfor (int i = p*p; i < U; i=i+2*p) {\n\t\t\tisPrime[i] = 0;\n\t\t}\n\t}\n}"
+		"body": "int U = 1e6;\nvector<bool> isPrime(U, 0);\nisPrime[2] = 1;\nfor (int i = 3; i < U; i=i+2) {\n\tisPrime[i] = 1;\n}\nfor (int p = 3; p * p <= U; p=p+2) {\n\tif (isPrime[p]) {\n\t\tfor (int i = p*p; i < U; i=i+2*p) {\n\t\t\tisPrime[i] = 0;\n\t\t}\n\t}\n}",
+		"description": "素数判定"
 	},
 	"factorial": {
 		"prefix": "fact",
@@ -1194,7 +1098,6 @@
 		"prefix": "dij",
 		"body": [
             "const ll INF = 1e18;",
-            "int $1N;",
             "",
             "struct Edge {",
             "\tint to, co;",
@@ -1202,8 +1105,8 @@
             "};",
             "",
             "struct Data {",
-            "\tll d; // 原点からの距離",
-            "\tint v; // 頂点番号",
+            "\tll d; // distance from start",
+            "\tint v; // vertex",
             "\tData(ll d, int v) : d(d), v(v) {}",
             "\tbool operator<(const Data& a) const {",
             "\t\treturn d > a.d;",
@@ -1212,8 +1115,8 @@
             "",
             "vector<Edge> graph$2[10000007];",
             "",
-            "vector<ll> dijkstra(int start) {",
-            "\tvector<ll> dist(N, INF); // 頂点数がNか確認",
+            "vector<ll> dijkstra(int N, int start) {",
+            "\tvector<ll> dist(N, INF);",
             "\tpriority_queue<Data> que;",
             "\tauto push = [&] (ll d, int v) {",
             "\t\tif (dist[v] <= d) return;",
@@ -1231,8 +1134,34 @@
             "\t\t}",
             "\t}",
             "\treturn dist;",
-            "}",
+			"}",
 		]
+	},
+	"bellmanford": {
+		"prefix": "bellmanford",
+		"body": [
+			"const ll INF = 1e16 + 10;",
+			"",
+			"struct Edge {",
+			"\tint pre, ne, cost;",
+			"\tEdge(int pre, int ne, int cost): pre(pre), ne(ne), cost(cost) {}",
+			"};",
+			"",
+			"vector<Edge> edges;",
+			"",
+			"ll bellmanford(int N, int start, int goal) {",
+			"\tvector<ll> dist(N, INF);",
+			"\tdist[start] = 0;",
+			"\trep(i, N) {",
+			"\t\tfor (auto [pre, ne, cost] : edges) {",
+			"\t\t\tif (dist[pre] != INF && chmin(dist[ne], dist[pre] + cost)) {",
+			"\t\t\t\tif (i == N-1 && ne == goal) return -1;",
+			"\t\t\t}",
+			"\t\t}",
+			"\t}",
+			"\treturn dist[goal];",
+			"}",
+		],
 	},
 	"BIT Fenwick Tree": {
 		"prefix": "BITfen",
@@ -1350,27 +1279,23 @@
 	"set": {
 		"prefix": "set",
 		"body": "set<$1int> ",
-		"description": ""
 	},
 	"eraseunique": {
 		"prefix": "eruni",
 		"body": "$1.erase(unique($1.begin(), $1.end()), $1.end());",
-		"description": "重複したものを消す？"
+		"description": "重複したものを消す"
 	},
 	".front()": {
 		"prefix": ".fro",
 		"body": ".front()",
-		"description": ""
 	},
 	".back()": {
 		"prefix": ".ba",
 		"body": ".back()",
-		"description": ""
 	},
 	"for (auto p : X)": {
 		"prefix": "fp",
 		"body": "for (auto p : $1) {\n\t$2\n}",
-		"description": ""
 	},
 	"numberOfDigits": {
 		"prefix": "digits",
